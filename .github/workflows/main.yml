@@ -2,9 +2,9 @@ name: Checkmarx One Scan
 on:
   push:
     branches:
-      - main
-      - master
-      - dev
+      - cxone
+      
+  
 jobs:
   build:
     runs-on: ubuntu-latest
