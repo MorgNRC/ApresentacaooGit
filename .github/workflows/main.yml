@@ -5,6 +5,7 @@ on:
       - main
       - master
       - dev
+      - teste3
 jobs:
   build:
     runs-on: ubuntu-latest
