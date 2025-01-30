@@ -1,0 +1,6 @@
+- task: Checkmarx AST@3
+  inputs:
+    CheckmarxService: 'AzureDevOps Integration Checkmarx one'
+    projectName: '$(Build.Repository.Name)'
+    branchName: '$(Build.SourceBranchName)'
+    tenantName: 'beta_nova8'
